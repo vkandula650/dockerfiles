@@ -1,4 +1,5 @@
-FROM ubuntu:20.04  # Or any other version of Ubuntu you prefer
+# Use Ubuntu 20.04 as the base image
+FROM ubuntu:20.04
 
 # Update package lists and install NGINX
 RUN apt-get update && apt-get install -y nginx
